@@ -14,7 +14,7 @@
     <PackageTags>assembly marker</PackageTags>
     <PackageIcon>icons/icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

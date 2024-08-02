@@ -6,7 +6,7 @@ namespace Enhanced.AssemblyMarker.SourceGenerator;
 ///     A source generator that creates C# assembly marker classes.
 /// </summary>
 [Generator]
-public class SampleSourceGenerator : ISourceGenerator
+public class AssemblyMarkerSourceGenerator : ISourceGenerator
 {
     /// <inheritdoc />
     public void Initialize(GeneratorInitializationContext context)
@@ -27,6 +27,8 @@ namespace Projects
 {{
     public static partial class {className}
     {{
+        public interface Ref;
+
         public const global::System.String AssemblyName = ""{assemblyName}"";
         public static global::System.Reflection.Assembly Assembly => This.Assembly;
     }}
