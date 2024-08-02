@@ -10,7 +10,7 @@ This package contains a source generator that creates a C# marker classes for as
 ## Installation
 
 ```bash
-dotnet add package Enhanced.AssemblyMarkers
+dotnet add package Enhanced.AssemblyMarkers.SourceGenerator
 ```
 
 ## Usage
