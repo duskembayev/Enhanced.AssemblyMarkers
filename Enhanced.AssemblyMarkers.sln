@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A7DA2BA2-A9F2-41F3-B0A3-D7858ABBCE61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{199ABC33-A91A-4401-9903-98F28B70D4AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib.Sample1", "examples\Lib.Sample1\Lib.Sample1.csproj", "{97EB7C17-1BC7-4E06-9248-5BA646D96F4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enhanced.AssemblyMarker.SourceGenerator", "src\Enhanced.AssemblyMarker.SourceGenerator\Enhanced.AssemblyMarker.SourceGenerator.csproj", "{28A29CC6-A7F7-455A-9C62-49BB7945B733}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib.Sample2", "examples\Lib.Sample2\Lib.Sample2.csproj", "{0A4D630D-2421-4288-8CD3-8ED4B2532BA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{97EB7C17-1BC7-4E06-9248-5BA646D96F4F} = {199ABC33-A91A-4401-9903-98F28B70D4AD}
+		{28A29CC6-A7F7-455A-9C62-49BB7945B733} = {A7DA2BA2-A9F2-41F3-B0A3-D7858ABBCE61}
+		{0A4D630D-2421-4288-8CD3-8ED4B2532BA3} = {199ABC33-A91A-4401-9903-98F28B70D4AD}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97EB7C17-1BC7-4E06-9248-5BA646D96F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97EB7C17-1BC7-4E06-9248-5BA646D96F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97EB7C17-1BC7-4E06-9248-5BA646D96F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97EB7C17-1BC7-4E06-9248-5BA646D96F4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A29CC6-A7F7-455A-9C62-49BB7945B733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A29CC6-A7F7-455A-9C62-49BB7945B733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A29CC6-A7F7-455A-9C62-49BB7945B733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A29CC6-A7F7-455A-9C62-49BB7945B733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A4D630D-2421-4288-8CD3-8ED4B2532BA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A4D630D-2421-4288-8CD3-8ED4B2532BA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A4D630D-2421-4288-8CD3-8ED4B2532BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A4D630D-2421-4288-8CD3-8ED4B2532BA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
